@@ -96,7 +96,6 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalOptions>/VERBOSE %(AdditionalOptions)</AdditionalOptions>
       <AdditionalLibraryDirectories>F:\Vatsim\CZVR\PDC-Ident\PDC_identifier\PDC_identifier\Euroscope lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>EuroScopePlugInDll.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
