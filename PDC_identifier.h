@@ -33,4 +33,7 @@ public:
 		RECT Area);
 
 	virtual string code_Gen();
+
+	inline  virtual void OnFlightPlanControllerAssignedDataUpdate(CFlightPlan FlightPlan,
+		int DataType);
 };
