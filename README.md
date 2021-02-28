@@ -3,8 +3,9 @@ Eurosocpe Plugin that generates real world (e.g. 123A, 456C) PDC Identifier
 
 PDC_identifier Assigner for Euroscope
 
+**Compatible with Euroscope beta r24 or higher (plugin was compiled using VS toolset 2019) https://www.euroscope.hu/wp/2020/04/12/3-2-1-24/
+
 Set-up:
-0. Install the VC++ package VC_redisr.x86.exe
 1. Other SET -> Plug-ins -> Load -> Load PDC_identifier.dll
 2. Choose Standard ES radar screen from the forbidden
 3. Add it to the allowed to draw on types "<<"
